@@ -17,7 +17,7 @@
 
 
 print("===== Temperature Converter =====")
-ran = print("\n\t(1) Convert from Celsius to Fahrenheit\n\t(2) Convert from Fahrenheit to Celsius")
+ran = print("\n\t1. Convert from Celsius to Fahrenheit\n\t2. Convert from Fahrenheit to Celsius")
 num = input("Please choose from the above menu:")
 temp = float(input("Enter a temperature to convert:"))
 
