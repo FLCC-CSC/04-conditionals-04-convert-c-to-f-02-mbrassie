@@ -28,7 +28,7 @@ if num == "1":
 
 if num == "2":
     cel = ((temp - 32) * 5/9)
-    print(f"{temp} degress Fahrenheit is {cel} degrees Celcius.")
+    print(f"{temp} degrees Fahrenheit is {cel} degrees Celcius.")
 
 
 
