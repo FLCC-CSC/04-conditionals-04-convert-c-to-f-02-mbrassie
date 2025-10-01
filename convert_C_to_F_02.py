@@ -18,8 +18,8 @@
 
 print("===== Temperature Converter =====")
 ran = print("\n\t1. Convert from Celsius to Fahrenheit\n\t2. Convert from Fahrenheit to Celsius")
-num = input("Please choose from the above menu:")
-temp = float(input("Enter a temperature to convert:"))
+num = input("Please choose from the above menu: ")
+temp = float(input("Enter a temperature to convert: "))
 
 
 if num == "1":
@@ -28,7 +28,8 @@ if num == "1":
 
 if num == "2":
     cel = ((temp - 32) * 5/9)
-    print(f"{temp} degress Fahrenheit is {cel} degrees Celcius. ")
+    print(f"{temp} degress Fahrenheit is {cel} degrees Celcius.")
+
 
 
 
